@@ -1,0 +1,1 @@
+function Scroll(){document.querySelector(".article-header-date").scrollIntoView(!0)}function Show_Content(){let e=document.getElementsByClassName("card-arrow-image"),t=document.getElementsByClassName("cards-points-title");for(let n=0;n<e.length;n++)e[n].onclick=()=>{t[n].style.display="block",e[n].style.animation="none"}}Show_Content();
